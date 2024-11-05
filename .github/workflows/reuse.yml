@@ -28,4 +28,4 @@ jobs:
       - run: |
           echo "Workflow 1 Time was ${{ needs.call-workflow-1.outputs.current-time }}" >> $GITHUB_STEP_SUMMARY
           echo "Workflow 2 Time was ${{ needs.call-workflow-2.outputs.current-time }}" >> $GITHUB_STEP_SUMMARY
-          echo "Workflow 2 Time was ${{ needs.call-workflow-3.outputs.current-time }}" >> $GITHUB_STEP_SUMMARY
+          echo "Workflow 3 Time was ${{ needs.call-workflow-3.outputs.current-time }}" >> $GITHUB_STEP_SUMMARY
