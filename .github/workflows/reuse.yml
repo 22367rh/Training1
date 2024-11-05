@@ -4,15 +4,15 @@ on: [workflow_dispatch]
 
 jobs:
   call-workflow-1:
-    uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/reuasable.yml
     with:
       who-to-greet: '@22367rh'
 
   call-workflow-2:
-    uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/reuasable.yml
 
   call-workflow-3:
-    uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/reuasable.yml
     with:
       who-to-greet: 'Universe'
 
