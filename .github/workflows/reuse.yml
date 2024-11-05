@@ -10,6 +10,8 @@ jobs:
 
   call-workflow-2:
     uses: ./.github/workflows/reuasable.yml
+    with:
+      who-to-greet: 'World'
 
   call-workflow-3:
     uses: ./.github/workflows/reuasable.yml
