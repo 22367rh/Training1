@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-actions-training
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: 22367rh/Training1
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: example@example.com
+  lifecycle: experimental
